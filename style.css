@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(./../Kacper-Web/Images/Background.jpg)
+}
+
+*{
+    margin: 0;
+    font-size: bold;
+    color: black;
+    -webkit-text-stroke: 0.5px white; /* width and color */
+    text-decoration: none;
+}
+
+#mainsquare{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation-name: entrance;
+  animation-duration: 8s;
+}
+
+#sectionsquare{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 35vw;
+    height: 35vh;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 35%;
+}
+
+button {
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color: rgb(89, 27, 139);
+    height: 3vh;
+}
+
+@keyframes entrance{
+  0% {opacity: 0;}
+}
